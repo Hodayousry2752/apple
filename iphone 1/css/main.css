@@ -1,0 +1,34 @@
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.apple-prag{
+    margin-top: 100px;
+    width: 32%;
+}
+.apple-img img{
+    width: 70%;
+}
+.all-pro{
+    background-color: white;
+    color: black;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+.all-imgs{
+    position: absolute;
+    left: 50%;
+    transition: 0.5s;
+    transform: translateX(-50%);
+}
+.all-imgs img{
+    width: 50px;
+    cursor: pointer;
+}
+.all-imgs img:hover{
+    transform: scale(1.2);
+}
